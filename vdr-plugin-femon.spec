@@ -2,7 +2,7 @@
 %define plugin	femon
 %define name	vdr-plugin-%plugin
 %define version	1.1.3
-%define rel	1
+%define rel	2
 
 Summary:	VDR plugin: DVB Signal Information Monitor (OSD)
 Name:		%name
