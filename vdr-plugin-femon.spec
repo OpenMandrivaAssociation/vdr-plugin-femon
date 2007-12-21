@@ -12,6 +12,7 @@ Group:		Video
 License:	GPL
 URL:		http://www.saunalahti.fi/~rahrenbe/vdr/femon/
 Source:		http://www.saunalahti.fi/~rahrenbe/vdr/femon/files/vdr-%plugin-%version.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
