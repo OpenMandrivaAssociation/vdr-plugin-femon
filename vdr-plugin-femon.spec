@@ -1,7 +1,7 @@
 
 %define plugin	femon
 %define name	vdr-plugin-%plugin
-%define version	1.1.5
+%define version	1.6.0
 %define rel	1
 
 Summary:	VDR plugin: DVB Signal Information Monitor (OSD)
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://www.saunalahti.fi/~rahrenbe/vdr/femon/
 Source:		http://www.saunalahti.fi/~rahrenbe/vdr/femon/files/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -31,9 +31,10 @@ the 'libdvb' library by Metzler Brothers.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %build
-%vdr_plugin_build
+%vdr_plugin_build STRIP=/bin/true
 
 %install
 rm -rf %{buildroot}
