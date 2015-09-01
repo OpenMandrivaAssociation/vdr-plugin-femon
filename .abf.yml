@@ -1,2 +1,4 @@
+removed_sources:
+  vdr-femon-1.6.7.tgz: ecf97b40dc211b4f07c6e8856fb44e3a025e6179
 sources:
-  "vdr-femon-1.6.7.tgz": ecf97b40dc211b4f07c6e8856fb44e3a025e6179
+  vdr-femon-2.0.0.tgz: 0aac4b9f93ac9a0586c101d8b2aabd2d1730f99d
