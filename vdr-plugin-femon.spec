@@ -6,7 +6,7 @@ Version:	2.0.0
 Release:	1
 Group:		Video
 License:	GPLv2+
-URL:		http://www.saunalahti.fi/~rahrenbe/vdr/femon/
+URL:		https://www.saunalahti.fi/~rahrenbe/vdr/femon/
 Source:		http://www.saunalahti.fi/~rahrenbe/vdr/femon/files/vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
